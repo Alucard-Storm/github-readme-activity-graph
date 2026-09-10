@@ -58,7 +58,7 @@ jobs:
                     --silent \
                     --show-error \
                     --output generated/activity-graph.svg \
-                    'http://127.0.0.1:5100/graph?username=wengshihao&bg_color=ffffff00&hide_border=true&hide_title=true&area=true&area_color=A78BFA&line=8B5CF6&point=14B8A6&color=64748B&radius=12&height=280'
+                    'http://127.0.0.1:5100/graph?username=alucard_storm&bg_color=ffffff00&hide_border=true&hide_title=true&area=true&area_color=A78BFA&line=8B5CF6&point=14B8A6&color=64748B&radius=12&height=280'
 
                   grep -q '<svg' generated/activity-graph.svg
                   if grep -q "Can't fetch any contribution" generated/activity-graph.svg; then
